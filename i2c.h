@@ -1,7 +1,7 @@
 /*************************************************
 //
 // i2c.h
-// Copyright (C) 2015, Yoshiki. Nomura, all right reserved.
+// Copyright (C) 2015, Y. Nomura, all right reserved.
 // 
 //
 *************************************************/
