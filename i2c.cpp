@@ -1,11 +1,11 @@
 /**********************************************
 //	i2c.cpp
-//	Y.Nomura
+//
 //	last update 2015/03/29
 //	Copyright (C) 2015, Y. Nomrua, all right reserved.
+//	This software is released under the MIT License, see LICENSE.md.
 //	Platform Dependent 
 //	
-//
 ************************************************/
 
 
