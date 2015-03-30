@@ -4,13 +4,13 @@
 //	last update 2015/03/29
 //	Copyright (C) 2015, Y. Nomrua, all right reserved.
 //	This software is released under the MIT License, see LICENSE.md.
-//	Platform Dependent 
+//
+//	(Platform Dependent) 
 //	
 ************************************************/
 
 
 #include "i2c.h"
-#include "raspGPIO.h"
 //platform dependent
 
 namespace i2c{
@@ -18,7 +18,7 @@ namespace i2c{
 //********************
 // this module needs the following function (platform dependent)
 // (shuld be define in other header file.)
-// following functions are sample.
+// following functions are sample (maybe not work).
 //
 // GPIOInit()
 // GPIOSetDir(uint32_t pin, uint32_t mode)
