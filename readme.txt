@@ -1,3 +1,9 @@
+/*************************************************
+//
+// Copyright (C) 2015, Y. Nomura, all right reserved.
+// This software is released under the MIT License, see LICENSE.md.
+//
+*************************************************/
 # bitbanging
 i2c bit banging (sample of raspberry pi )
 
