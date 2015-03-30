@@ -25,14 +25,10 @@ namespace i2c{
 		I2C_BUS_ERROR
 	}I2CResult;
 
-	void wait_usec(uint32_t time);
-
-
 	void Initi2c();
 	
 	void BusClear();
 
-	
 	I2CResult Writei2c(uint8_t d_addr, uint8_t r_addr,const uint8_t *buffer, uint32_t length);
 	inline I2CResult Writei2c(uint8_t d_addr, uint8_t r_addr,uint8_t buffer){
 		return Writei2c(d_addr,r_addr,&buffer,1);
