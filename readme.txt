@@ -7,7 +7,7 @@
 # bitbanging
 i2c bit banging (sample of raspberry pi )
 
-This program requires the following function
+This program needs the following function
 
 -void wait_usec(uint32_t time);
 	Provide the function of wait micro sec.
