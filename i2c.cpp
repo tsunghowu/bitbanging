@@ -72,7 +72,7 @@ namespace i2c{
 		const uint32_t gpio_output =0x1;
 
 		const uint32_t i2c_time = 2;
-		const uint8_t i2cwrite =0x00;
+		const uint8_t i2cwirte =0x00;
 		const uint8_t i2cread = 0x01;
 	}
 
@@ -393,7 +393,7 @@ namespace i2c{
 		if(state!=0x08){//wrong state
 			return SendError(state);
 		}
-		state=I2CSendSLA(d_addr+i2cwrite);
+		state=I2CSendSLA(d_addr+i2cwirte);
 		if(state!=0x18){//wrong state
 			return SendError(state);
 		}
@@ -428,7 +428,7 @@ namespace i2c{
 		if(state!=0x08){//wrong state
 			return SendError(state);
 		}
-		state=I2CSendSLA(d_addr+i2cwrite);
+		state=I2CSendSLA(d_addr+i2cwirte);
 		if(state!=0x18){//wrong state
 			return SendError(state);
 		}
